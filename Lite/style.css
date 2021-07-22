@@ -1,15 +1,38 @@
 /* css */
 
+
+/* colores principales */
+
+:root {
+    --green-first: #43DC80;
+    --blue: #51A6F5;
+    --red: #FF4C41;
+    --violet: #864AD1;
+    --orange: #FFAC30;
+    --green-second: #68CF29;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
-div {
+
+/* DEPURADORES */
+
+
+/* div {
     border: 1px solid black;
-    margin: 0, 5px;
-    padding: 0, 5px;
+} */
+
+
+/* aside>div {
+    border: 0.5px solid black;
 }
+
+main>section>div {
+    border: 0.5px solid black;
+} */
 
 nav {
     display: flex;
@@ -22,6 +45,11 @@ nav {
     margin: 1px;
     padding: 1px;
     text-transform: uppercase;
+}
+
+.img-nav-container-one {
+    display: flex;
+    align-self: center;
 }
 
 .img-nav-one {
@@ -98,9 +126,94 @@ nav {
     display: flex;
 }
 
+
+/* INICIO DE BARRA LATERAL */
+
 .barra {
     width: 20%;
 }
+
+.container-movements {
+    margin: 5px;
+    text-align: center;
+}
+
+.movements-deposit {
+    margin: 20px 10px;
+    padding: 15px;
+    color: blanchedalmond;
+    background-color: var(--green-first);
+    border-radius: 15px;
+}
+
+.movements-withdraw {
+    margin: 20px 10px;
+    padding: 15px;
+    color: blanchedalmond;
+    background-color: var(--orange);
+    border-radius: 15px;
+}
+
+
+/* FIN DE BOTONES DE DEPOSITO Y EXTRANCION */
+
+.container-menu {
+    margin: 5px;
+}
+
+.cont-menu:hover {
+    color: var(--green-first);
+}
+
+.cont-menu {
+    color: #7E7E7E;
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+.cont-menu>span {
+    vertical-align: super;
+}
+
+.cont-menu.dash {
+    background-color: #ecfbf2;
+    text-transform: capitalize;
+}
+
+.cont-menu.trans {
+    text-transform: capitalize;
+}
+
+.cont-menu.price {
+    text-transform: uppercase;
+}
+
+
+/* FIN DE BOTONES DE NAVEGACION */
+
+.faq-privacy {
+    display: flex;
+}
+
+.faq {
+    color: blanchedalmond;
+    background-color: var(--blue);
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+.privacy {
+    color: blanchedalmond;
+    background-color: var(--red);
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+
+/* FIN DE BARRA LATERAL */
 
 .principal {
     width: 80%;
