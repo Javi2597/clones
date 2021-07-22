@@ -1,0 +1,107 @@
+/* css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid black;
+    margin: 0, 5px;
+    padding: 0, 5px;
+}
+
+nav {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.header-nav-one {
+    display: flex;
+    margin: 1px;
+    padding: 1px;
+    text-transform: uppercase;
+}
+
+.img-nav-one {
+    border-radius: 15px;
+}
+
+.nav-one-container {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.one-container-color {
+    color: red;
+}
+
+.menu-hamburger-container {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-hamburger {
+    width: inherit;
+    height: inherit;
+    display: block;
+}
+
+.hamburger-dash {
+    border: none;
+    border-radius: 25px;
+    background-color: green;
+    height: 4px;
+    margin: 5px 0px;
+}
+
+.hamburger-dash.one {
+    width: 25px;
+    margin: 5px 0px 5px 5px;
+}
+
+.hamburger-dash.three {
+    width: 25px;
+    margin: 5px 0px 5px 5px;
+}
+
+.header-nav-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    text-transform: capitalize;
+}
+
+.nav-two-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-nav-two {
+    border-radius: 50%;
+}
+
+.nav-two-text {
+    margin: 1px;
+    padding: 1px;
+}
+
+
+/* FIN DE HEADER/NAV */
+
+.contenedor {
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+}
+
+.principal {
+    width: 80%;
+}
