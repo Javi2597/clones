@@ -131,6 +131,7 @@ nav {
 
 .barra {
     width: 20%;
+    margin: 0px 10px;
 }
 
 .container-movements {
@@ -163,6 +164,7 @@ nav {
 
 .cont-menu:hover {
     color: var(--green-first);
+    background-color: #ecfbf2;
 }
 
 .cont-menu {
@@ -194,12 +196,14 @@ nav {
 
 .faq-privacy {
     display: flex;
+    margin: 20px;
+    justify-content: space-around;
 }
 
 .faq {
     color: blanchedalmond;
     background-color: var(--blue);
-    border-radius: 15px;
+    border-radius: 25px;
     margin: 20px 10px;
     padding: 15px;
 }
@@ -207,9 +211,39 @@ nav {
 .privacy {
     color: blanchedalmond;
     background-color: var(--red);
-    border-radius: 15px;
+    border-radius: 25px;
     margin: 20px 10px;
     padding: 15px;
+    text-transform: capitalize;
+}
+
+.footer-aside {
+    margin: 5px;
+}
+
+.aside-box {
+    margin: 5px;
+}
+
+.aside-box-text {
+    text-transform: capitalize;
+    color: #7E7E7E;
+}
+
+.aside-box-img {
+    margin: auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.heart-box:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.heart-box {
+    font-size: 28px;
 }
 
 
@@ -217,4 +251,30 @@ nav {
 
 .principal {
     width: 80%;
+}
+
+
+/* box monto */
+
+.stats-mining {
+    margin: 5px;
+    padding: 5px;
+    background-color: var(--green-first);
+    border-radius: 15px;
+    display: flex;
+}
+
+.mining-img {
+    margin: 5px;
+    padding: 10px;
+}
+
+.mining-plate {
+    align-self: center;
+    margin: auto;
+    text-align: center;
+}
+
+.mining-plate>p {
+    margin: 0;
 }
