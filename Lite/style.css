@@ -332,3 +332,45 @@ nav {
     width: 50%;
     margin: 5px;
 }
+
+.profit-box {
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.profit-box-content {
+    margin: 1px;
+    padding: 19px;
+}
+
+.profit-box-content>div {
+    border: 1px solid black;
+}
+
+.box-content-stats>div {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+
+.calculator-box-content {
+    margin: 1px;
+    padding: 19px;
+}
+
+.calculator-box {
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.calculator-box-content>div {
+    border: 1px solid black;
+}
+
+.calculator-box-stats>div {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
