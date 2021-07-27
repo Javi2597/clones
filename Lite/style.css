@@ -254,7 +254,7 @@ nav {
 }
 
 
-/* box monto */
+/* INICIO CAJA VERDE */
 
 .stats-mining {
     margin: 10px;
@@ -273,10 +273,24 @@ nav {
     align-self: center;
     margin: auto;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: whitesmoke;
 }
 
-.mining-plate>p {
-    margin: 0;
+.mining-text-one {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.mining-text-two {
+    font-size: 35px;
+    margin: 0 0 15px 0;
+}
+
+.mining-text-three {
+    font-size: 16px;
 }
 
 .boxs-stats {
@@ -287,31 +301,158 @@ nav {
 .stats-value {
     display: flex;
     margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+
+/* INICIO CAJA ROJA */
+
 .value-box {
+    display: flex;
     background-color: var(--red);
     border-radius: 15px;
     color: whitesmoke;
-    width: 33.3%;
+    width: 380px;
+    height: 200px;
     margin: 5px;
 }
 
+.container-value-box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.value-img {
+    margin: 10px;
+}
+
+.value-box-text {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.value-text-one {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.value-text-two {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.value-text-hr {
+    margin: 3px;
+    height: 10px;
+    background-color: rgba(196, 209, 206, 0.788);
+    border: none;
+    border-radius: 3px;
+}
+
+.value-text-three {
+    margin: 3px;
+    font-size: 14px;
+}
+
+
+/*  INICIO CAJA AZUL */
+
 .ref-box {
+    display: flex;
     background-color: var(--blue);
     color: whitesmoke;
     border-radius: 15px;
-    width: 33.3%;
+    width: 380px;
+    height: 200px;
     margin: 5px;
 }
 
+.ref-img {
+    margin: 3px;
+}
+
+.container-ref-box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.ref-box-text {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: end;
+    align-self: baseline;
+}
+
+.ref-text-one {
+    text-transform: uppercase;
+}
+
+
+/* INICIO CAJA VIOLETA */
+
 .hash-box {
+    display: flex;
     background-color: var(--violet);
     border-radius: 15px;
     color: whitesmoke;
-    width: 33.3%;
+    width: 380px;
+    height: 200px;
     margin: 5px;
 }
+
+.container-hash-box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.hash-img {
+    margin: 3px;
+}
+
+.hash-box-text {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.hash-text-one {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.hash-text-two {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hash-text-hr {
+    margin: 3px;
+    height: 7px;
+    background-color: rgba(196, 209, 206, 0.788);
+    border: none;
+    border-radius: 3px;
+}
+
+.hash-text-three {
+    margin: 3px;
+    font-size: 14px;
+}
+
+
+/* FIN DE CAJA VIOLETA */
+
+
+/*  MOVIMIENTOS */
 
 .plate-movement {
     display: flex;
